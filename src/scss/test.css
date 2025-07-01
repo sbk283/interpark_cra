@@ -1,0 +1,7 @@
+.wrap {
+  display: flex;
+  margin: 5px solid yellow;
+}
+.wrap .notice {
+  display: flex;
+}/*# sourceMappingURL=test.css.map */
