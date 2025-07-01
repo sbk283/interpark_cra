@@ -1,0 +1,237 @@
+.header {
+  border-bottom: 1px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  width: 100%;
+  background-color: #ffffff;
+}
+.layout {
+
+  /* 
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0; 
+  */
+
+  /* 영역을 가운데 정렬하기 */
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  background-color: #ffffff;
+}
+
+.header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* 
+  padding-top: 12px;
+  padding-bottom: 12px; 
+  */
+
+  padding: 12px 0;
+
+  width: 100%;
+}
+
+.header_top_scroll {
+  padding: 0;
+}
+
+.header_top_left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 144px;
+  height: 22px;
+}
+.logo_hide {
+  display: none;
+}
+
+.search {
+
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+
+  padding-left: 25px;
+  border: 1px solid #dfdfdf;
+  width: 355px;
+  height: 46px;
+  border-radius: 23px;
+}
+
+.search_scroll {
+  position: absolute;
+  top: 8px;
+  left: 190px;
+}
+
+.search form {
+
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+#good {
+  flex: 1;
+  border: 0;
+  border: none;
+  outline-style: none;
+}
+.bt_search {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.sale {
+  width: 180px;
+  height: 50px;
+}
+.sale_hide {
+  display: none;
+}
+
+.sale img {
+  width: 100%;
+  height: auto;
+}
+
+.header_top_right {
+}
+.link_site {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.link_site_hide {
+  display: none;
+}
+
+.link_site li {
+  position: relative;
+}
+.link_site_line::after {
+
+  position: absolute;
+  top: 4px;
+  right: -10px;
+
+  width: 1px;
+  height: 12px;
+  background-color: #dfdfdf;
+  content: "";
+}
+
+.main_menu {
+  display: flex;
+}
+.main_menu li {
+}
+.main_menu li a {
+
+  display: flex;
+  align-items: center;
+
+  padding: 0px 14px;
+  position: relative;
+  height: 48px;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.focus::after {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+  background-color: #29292d;
+  content: "";
+}
+
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.member_menu {
+  display: flex;
+  gap: 25px;
+}
+.member_menu li a {
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+  height: 48px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.height_62 {
+  height: 62px !important;
+}
+
+/* 모바일 메뉴 */
+.mobile_header {
+
+  display: none;
+  padding: 8px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dfdfdf;
+}
+.mobile_scroll_line {
+  border-bottom: 1px solid #dfdfdf;
+}
+.mobile_menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.mobile_menu li a {
+  font-size: 22px;
+  font-weight: 500;
+}
+.mobile_search {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 위의 코드는 PC 화면의 설정 */
+@media all and (max-width: 1280px) {
+  .layout {
+    max-width: 1024px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+
+  .mobile_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .layout {
+    max-width: 760px;
+  }
+}

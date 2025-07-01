@@ -1,0 +1,24 @@
+.warp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1420px;
+}
+.warp .header {
+  width: 1420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warp .header .inner {
+  border: 5px solid red;
+  height: 100px;
+  width: 800px;
+}
+.warp .main {
+  width: 1420px;
+}
+.warp .footer {
+  width: 1420px;
+}/*# sourceMappingURL=test.css.map */

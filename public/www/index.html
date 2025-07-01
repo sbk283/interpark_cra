@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOL 인터파크</title>
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- SEO -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="항공, 여행, 숙소, 티켓 예약 모든 것을 한 곳에서!"
+    />
+    <meta
+      name="keywords"
+      content="놀유니버스, nol, 놀인터파크, 인터파크, 인터파크투어, 놀인터파크투어, 인터파크티켓, 놀티켓 여행, 호텔, 리조트, 펜션, 풀빌라, 모텔, 캠핑, 글램핑, 게스트하우스, 레지던스, 스파, 온천, 반려동물동반숙소, 키즈펜션, 호캉스, 카라반, 레저, 액티비티, 스키장, 수영장, 워터파크, 롯데월드, 에버랜드, 캐리비안베이, 아쿠아리움, 주말나들이, 키즈풀빌라, 가평풀빌라, 해외여행, 항공권, 일본, 베트남, 홍콩, 태국, 후쿠오카, 오사카, 나트랑, 도쿄, 다낭, 방콕, 괌, 사이판, 대만, 싱가포르, 삿포로, 하와이, 몰디브, 발리, 유럽, 신혼여행, 항공, 패키지여행, 국내가볼만한곳, 비행기표, 땡처리항공권, 국내여행, 제주도, 서울, 공동구매항공권, 여행사추천, 티켓, 뮤지컬, 연극, 콘서트, 전시, 공연, 축제, 페스티벌, 티켓팅, 예매사이트"
+    />
+    <meta property="og:title" content="NOL 인터파크" />
+    <meta
+      property="og:description"
+      content="항공, 여행, 숙소, 티켓 예약을 한 곳에서!"
+    />
+    <meta
+      property="og:image"
+      content="https://ticketimage.interpark.com/TicketImage/og/og_interpark.png"
+    />
+    <meta property="og:url" content="https://nol.interpark.com" />
+    <meta property="og:site_name" content="NOL 인터파크" />
+    <meta property="og:type" content="website" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/layout.css" />
+
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="js/header.js"></script>
+
+    <script src="js/rolling-banner.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/banner.css" />
+    <script src="js/banner.js"></script>
+
+    <link rel="stylesheet" href="css/tour.css" />
+    <script src="js/tour.js"></script>
+
+    <!-- trip 연결 -->
+    <link rel="stylesheet" href="css/trip.css" />
+    <script src="js/trip.js"></script>
+
+    <link rel="stylesheet" href="css/ticket.css" />
+    <script src="js/ticket.js"></script>
+
+    <link rel="stylesheet" href="css/live.css" />
+    <script src="js/live.js"></script>
+
+    <link rel="stylesheet" href="css/footer.css" />
+    <script src="js/footer.js"></script>
+  </head>
+  <body>
+    <!-- 저작권 안내 -->
+    <link rel="stylesheet" href="css/popup.css" />
+    <script src="js/popup.js"></script>
+    <div class="popup">
+      <div class="popup_content">
+        <p class="popup_text">
+          📢 안내드립니다
+          <br />
+          <br />
+          안녕하세요!😊
+          <br />
+          이 페이지는 개인 공부 목적으로 제작된 클론 코딩 프로젝트입니다.
+          <br />
+          <br />
+          🔨 제작 목적: 웹 퍼블리싱 및 프론트엔드 개발 연습
+          <br />
+          📚 사용 기술: HTML, CSS, JavaScript 등
+          <br />
+          🧑‍💻 클론 대상: 인터파크 쇼핑몰 서비스 (디자인 및 UI 구조 참고)
+          <br />
+          <br />
+          📌 실제 서비스와 무관하며, 상업적 목적이 전혀 없습니다. <br />
+          <br />
+          📸 본 페이지에 사용된 이미지 및 콘텐츠의 저작권은
+          <br />
+          **원저작권자(인터파크 및 제휴사 등)**에게 있으며,
+          <br />
+          요청 시 즉시 삭제하도록 하겠습니다.
+          <br />
+          <br />
+          감사합니다. 🙏
+        </p>
+        <button class="popup_close">창닫기</button>
+      </div>
+    </div>
+    <!-- 영역구분 : 내용과 바탕  -->
+    <div class="wrap">
+      <!-- 영역구분: 상단 -->
+      <header class="header">
+        <!-- 레이아웃용 -->
+        <div class="layout">
+          <!-- 상단 -->
+          <div class="header_top">
+            <div class="header_top_left">
+              <a href="#" class="logo">
+                <img src="images/nol-interpark-logo.svg" alt="인터파크" />
+              </a>
+              <div class="search">
+                <!-- 검색폼 -->
+                <form action="#" method="get">
+                  <input
+                    type="text"
+                    name="good"
+                    id="good"
+                    placeholder="인기공연 타임딜"
+                  />
+                  <button class="bt_search">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M15.5 15.5L20.5 20.5"
+                        stroke="#29292D"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <circle
+                        cx="10.5"
+                        cy="10.5"
+                        r="6.5"
+                        stroke="#29292D"
+                        stroke-width="1.5"
+                      ></circle>
+                    </svg>
+                  </button>
+                </form>
+                <!-- 검색폼 -->
+              </div>
+              <a href="#" class="sale">
+                <img src="images/b1.png" alt="할인이벤트" />
+              </a>
+            </div>
+            <div class="header_top_right">
+              <ul class="link_site">
+                <li class="link_site_line">
+                  <a href="#" target="_blank">
+                    <img src="images/partner-nol.svg" alt="NOL" />
+                  </a>
+                </li>
+                <li class="link_site_line">
+                  <a href="#" target="_blank">
+                    <img src="images/partner-triple.svg" alt="TRIPLE" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img
+                      src="images/partner-interpark-global.svg"
+                      alt="Interpark Global"
+                      style="transform: translateY(2px)"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- 하단 -->
+          <div class="header_bottom">
+            <div class="header_bottom_left">
+              <ul class="main_menu">
+                <li>
+                  <a href="#" class="focus"> 홈 </a>
+                </li>
+                <li>
+                  <a href="#"> 투어 </a>
+                </li>
+                <li>
+                  <a href="#">티켓</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header_bottom_right">
+              <ul class="member_menu">
+                <li>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="19"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M19 18V18C19 14.4101 16.0899 11.5 12.5 11.5H7.5C3.91015 11.5 1 14.4101 1 18V18"
+                        stroke="#29292D"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                      ></path>
+                      <circle
+                        cx="10"
+                        cy="5"
+                        r="4"
+                        stroke="#29292D"
+                        stroke-width="1.5"
+                      ></circle></svg
+                    >로그인</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M19.7729 9.04466C18.7255 9.53297 18.0449 10.5718 18.0449 11.9232C18.0449 13.2769 18.7281 14.2937 19.7756 14.7666C19.9383 14.84 20.0704 14.9376 20.1533 15.0347C20.2323 15.1271 20.2499 15.1965 20.2499 15.2463V17C20.2499 18.2426 19.2426 19.25 17.9999 19.25H6C4.75736 19.25 3.75 18.2426 3.75 16.9999V7C3.75 5.75736 4.75736 4.75 6 4.75H17.9999C19.2426 4.75 20.2499 5.75736 20.2499 7V8.55715C20.2499 8.60663 20.2324 8.67653 20.1527 8.7705C20.0692 8.86903 19.9365 8.96842 19.7729 9.04466Z"
+                        stroke="#29292D"
+                        stroke-width="1.5"
+                      ></path>
+                      <line
+                        x1="14.75"
+                        y1="5.75"
+                        x2="14.75"
+                        y2="18.25"
+                        stroke="#29292D"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-dasharray="1 3"
+                      ></line></svg
+                    >내예약</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- 모바일용: 상단 -->
+      <div class="mobile_header">
+        <div class="mobile_header_left">
+          <ul class="mobile_menu">
+            <li>
+              <a href="#">
+                <img
+                  src="images/nol-interpark-logo-multiline.svg"
+                  alt="인터파크"
+                />
+              </a>
+            </li>
+            <li><a href="#">투어</a></li>
+            <li><a href="#">티켓</a></li>
+          </ul>
+        </div>
+        <div class="mobile_header_right">
+          <button class="mobile_search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M15.5 15.5L20.5 20.5"
+                stroke="#29292D"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <circle
+                cx="10.5"
+                cy="10.5"
+                r="6.5"
+                stroke="#29292D"
+                stroke-width="1.5"
+              ></circle>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- 영역구분: 내용 -->
+      <main class="main">
+        <!-- 배너 -->
+        <div class="banner">
+          <div class="layout">
+            <!-- 배너슬라이드 -->
+            <div class="banner_wrap">
+              <!-- Swiper -->
+              <div class="swiper sw_banner">
+                <div class="swiper-wrapper">
+                  <!-- API 연동 -->
+                </div>
+              </div>
+
+              <!-- 슬라이드 목록 -->
+
+              <!-- 좌측이동 버튼 -->
+              <button class="banner_slide_prev">
+                <img src="images/slider_arrow.svg" alt="이전" />
+              </button>
+              <!-- 우측이동 버튼 -->
+              <button class="banner_slide_next">
+                <img src="images/slider_arrow.svg" alt="다음" />
+              </button>
+              <!-- 페이지네이션 -->
+              <div class="banner_slide_pg">페이지네이션</div>
+            </div>
+          </div>
+        </div>
+        <!-- 투어 -->
+        <section class="tour">
+          <div class="layout">
+            <!-- 상단 -->
+            <div class="tour_top">
+              <div class="tour_top_title">
+                <h2 class="title">투어 특가</h2>
+                <p class="subtitle">마감임박! 금주의 특가 여행 추천</p>
+              </div>
+              <div class="tour_top_category">
+                <ul class="tour_button_list">
+                  <li><button class="tour_focus">마감임박</button></li>
+                  <li><button>패키지</button></li>
+                  <li><button>국내숙소</button></li>
+                  <li><button>해외숙소</button></li>
+                  <li><button>투어/입장권</button></li>
+                </ul>
+              </div>
+            </div>
+            <!-- 하단 -->
+            <div class="tour_bottom">
+              <!-- 슬라이드 -->
+              <div class="tour_slide_wrap">
+                <!--Start Swiper Tour Slide -->
+                <div class="swiper sw_tour">
+                  <div class="swiper-wrapper">
+                    <!--  추후 API 연동으로 대체함 -->
+                  </div>
+                </div>
+                <!--End Swiper Tour Slide -->
+
+                <button class="tour_slide_prev">
+                  <img src="images/slider_arrow.svg" alt="이전" />
+                </button>
+                <button class="tour_slide_next">
+                  <img src="images/slider_arrow.svg" alt="다음" />
+                </button>
+              </div>
+              <!-- 더보기 -->
+              <div class="tour_more">
+                <a href="#" class="tour_more_bt">
+                  투어 홈 바로가기
+                  <img src="images/icon_linkArrow.svg" alt="투어 홈 바로가기" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 트립 -->
+        <section class="trip">
+          <div class="layout">
+            <div class="trip_header">
+              <h2 class="trip_header_title">
+                <img src="images/icon_w_trip_new_pc.svg" alt="trip" />
+                <img src="images/icon_w_trip_question_mark_pc.svg" alt="trip" />
+              </h2>
+              <p class="trip_header_text">
+                누구와 여행 가시나요? 동행자별 맞춤여행
+              </p>
+            </div>
+            <div class="trip_slide_wrap">
+              <!--Start Swiper Trip 슬라이드 -->
+
+              <div class="swiper sw_trip">
+                <div class="swiper-wrapper">
+                  <!-- API 연동 -->
+                </div>
+              </div>
+              <!--End Swiper Trip 슬라이드 -->
+              <button class="trip_slide_prev">
+                <img src="images/slider_arrow.svg" alt="이전" />
+              </button>
+              <button class="trip_slide_next">
+                <img src="images/slider_arrow.svg" alt="다음" />
+              </button>
+            </div>
+            <div class="trip_footer">
+              <a href="#" class="trip_more_bt">
+                w트립 상품 더보기
+                <img src="images/icon_linkArrow.svg" alt="더보기" />
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- 티켓랭킹 -->
+        <section class="ticket">
+          <div class="layout">
+            <div class="ticket_header">
+              <h2 class="ticket_header_title">티켓 랭킹</h2>
+              <p class="ticket_header_text">오늘 뭐볼까? 지금 HOT한 공연</p>
+            </div>
+            <div class="ticket_category">
+              <ul class="ticket_category_list">
+                <li><button class="ticket_focus">뮤지컬</button></li>
+                <li><button>콘서트</button></li>
+              </ul>
+            </div>
+            <div class="ticket_slide_wrap">
+              <!--Start Swiper Trip 슬라이드 -->
+
+              <div class="swiper sw_ticket">
+                <div class="swiper-wrapper">
+                  <!-- API 연동 -->
+                </div>
+              </div>
+              <!--End Swiper Trip 슬라이드 -->
+              <button class="ticket_slide_prev">
+                <img src="images/slider_arrow.svg" alt="이전" />
+              </button>
+              <button class="ticket_slide_next">
+                <img src="images/slider_arrow.svg" alt="다음" />
+              </button>
+            </div>
+            <div class="ticket_footer">
+              <a href="#" class="ticket_more_bt">
+                티켓 홈 바로가기
+                <img src="images/icon_linkArrow.svg" alt="더보기" />
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- 라이브 -->
+        <div class="live">
+          <div class="layout">
+            <div class="live_header">
+              <h2 class="live_header_title">
+                <img src="images/title_live.svg" alt="liv" />
+              </h2>
+            </div>
+            <div class="live_slide_wrap">
+              <!--Start Swiper Trip 슬라이드 -->
+
+              <div class="swiper sw_live">
+                <div class="swiper-wrapper">
+                  <!-- API 연동 -->
+                </div>
+              </div>
+              <!--End Swiper Trip 슬라이드 -->
+              <button class="live_slide_prev">
+                <img src="images/slider_arrow.svg" alt="이전" />
+              </button>
+              <button class="live_slide_next">
+                <img src="images/slider_arrow.svg" alt="다음" />
+              </button>
+            </div>
+            <div class="live_footer">
+              <a href="#" class="live_more_bt">
+                인터파크 라이브 바로가기
+                <img src="images/icon_linkArrow.svg" alt="더보기" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- 영역구분: 하단 -->
+      <footer class="footer">
+        <!-- 상단 -->
+        <div class="footer_top">
+          <div class="layout">
+            <!-- 하단 메뉴 -->
+            <ul class="footer_menu_list">
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li>
+                <a href="#"><strong>개인정보처리방침</strong></a>
+              </li>
+              <li><a href="#">위치기반서비스 이용약관</a></li>
+              <li><a href="#">여행약관</a></li>
+              <li><a href="#">여행자보험 가입내역</a></li>
+              <li><a href="#">티켓판매안내</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li>
+                <div class="footer_more">
+                  <span>
+                    고객센터
+                    <img src="images/icon_linkArrow.svg" alt="고객센터" />
+                  </span>
+                  <div class="more_box">
+                    <ul class="more_list">
+                      <li><a href="#">투어 고객센터</a></li>
+                      <li><a href="#">티켓 고객센터</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="footer_more">
+                  <span>
+                    Language
+                    <img src="images/icon_linkArrow.svg" alt="Language" />
+                  </span>
+                  <div class="more_box">
+                    <ul class="more_list">
+                      <li><a href="#">Korean</a></li>
+                      <li><a href="#">English</a></li>
+                      <li><a href="#">Japanes</a></li>
+                      <li><a href="#">Chinese</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 하단 -->
+        <div class="footer_bottom">
+          <div class="layout">
+            <!-- 연락처 -->
+            <div class="footer_contact">
+              <div class="footer_contact_box">
+                <h3>(주)놀유니버스</h3>
+                <ul>
+                  <li>
+                    <address>
+                      주소 경기도 성남시 수정구 금토로 70 (금토동, 텐엑스타워)
+                    </address>
+                  </li>
+                  <li>
+                    사업자등록번호 824-81-02515
+                    <a href="#" target="_blank">사업자정보확인</a>
+                  </li>
+                  <li>통신판매업신고 2024-성남수정-0912</li>
+                  <li>관광사업증 등록번호 : 제2024-000024호</li>
+                  <li>
+                    호스팅서비스제공자 (주)놀유니버스｜ 대표이사 배보찬, 최휘영
+                  </li>
+                </ul>
+              </div>
+              <div class="footer_contact_box">
+                <h3>고객센터</h3>
+                <ul>
+                  <li>투어 1588-3443 ｜ 티켓 1544-1555</li>
+                  <li>
+                    팩스 02-830-7807 ｜ 이메일 help.interpark@nol-universe.com
+                  </li>
+                  <li>해외항공 02-3479-4399 ｜ 국내항공 02-3479-4340</li>
+                  <li>
+                    <a href="#">투어 1:1문의</a> | <a href="#">티켓 1:1문의</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer_contact_box">
+                <h3>전자금융거래 분쟁처리 담당정보</h3>
+                <ul>
+                  <li>투어 1588-3443 ｜ 티켓 1544-1555</li>
+                  <li>
+                    팩스 02-830-8295 ｜ 이메일 interpark_ef@nol-universe.com
+                  </li>
+                  <li>개인정보보호책임자 privacy_i@nol-universe.com</li>
+                </ul>
+              </div>
+            </div>
+            <!-- 카피라이터 -->
+            <div class="footer_copyright">
+              <div class="footer_copyright_box">
+                <p class="first_p">
+                  (주)놀유니버스는 일부 상품의 통신판매중개자로서 통신판매의
+                  당사자가 아니므로, 상품의 예약, 이용 및 환불 등 거래와 관련된
+                  의무와 책임은 판매자에게 있으며 (주)놀유니버스는 일체 책임을
+                  지지 않습니다.
+                </p>
+                <p class="second_p">
+                  ⓒ Nol Universe Co., Ltd. All rights reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- 모바일: 하단 -->
+      <div class="mb_footer">
+        <div class="mb_footer_menu">
+          <nav>
+            <a href="#">이용약관</a>
+            <i class="bar"></i>
+            <a href="#">위치기반서비스 이용약관</a>
+            <i class="bar"></i>
+            <a href="#"><strong>개인정보 처리방침</strong></a>
+          </nav>
+          <div>
+            <nav>
+              <a href="#">여행자보험 가입안내</a>
+              <i class="bar"></i>
+              <a href="#">여행약관</a>
+              <i class="bar"></i>
+              <a href="#">분쟁해결기준</a>
+            </nav>
+          </div>
+        </div>
+        <div class="mb_footer_info">
+          <div class="footer_contact_box" style="margin-bottom: 30px">
+            <h3 id="mb_bt">
+              (주)놀유니버스 사업자 정보
+              <i><img src="images/icon_linkArrow.svg" alt="화살표" /></i>
+            </h3>
+            <ul class="mb_footer_hide">
+              <li>
+                <address>
+                  주소 경기도 성남시 수정구 금토로 70 (금토동, 텐엑스타워)
+                </address>
+              </li>
+              <li>대표이사 배보찬, 최휘영</li>
+              <li>호스팅서비스제공자 (주)놀유니버스</li>
+              <li>
+                사업자등록번호 824-81-02515
+                <a href="#" target="_blank">사업자정보확인</a>
+              </li>
+              <li>통신판매업신고 2024-성남수정-0912</li>
+              <li>관광사업증 등록번호 : 제2024-000024호</li>
+            </ul>
+          </div>
+          <div class="footer_contact_box mb_footer_hide">
+            <h3 class="mb_bt">고객센터</h3>
+            <ul class="mb_footer_hide">
+              <li>이메일 help.interpark@nol-universe.com</li>
+              <li>투어 1588-3443 ｜ 티켓 1544-1555</li>
+              <li>해외항공 02-3479-4399 ｜ 국내항공 02-3479-4340</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mb_footer_link">
+          <a href="#"><img src="images/partner-nol.svg" alt="nol" /></a>
+          <i class="circle"></i>
+          <a href="#"><img src="images/partner-triple.svg" alt="triple" /></a>
+          <i class="circle"></i>
+          <a href="#"
+            ><img
+              src="images/partner-interpark-global.svg"
+              alt="interpark-global"
+          /></a>
+        </div>
+        <div class="mb_footer_copy">
+          (주)놀유니버스는 일부 상품의 통신판매중개자로서 통신판매의 당사자가
+          아니므로, 상품의 예약, 이용 및 환불 등 거래와 관련된 의무와 책임은
+          판매자에게 있으며 (주)놀유니버스는 일체 책임을 지지 않습니다.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
